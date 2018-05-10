@@ -34,13 +34,13 @@ app.use(cookieParser());
 // Express View engine setup
 app.use(
   require("node-sass-middleware")({
-    src: path.join(__dirname, "public"),
-    dest: path.join(__dirname, "public"),
-     outputStyle: 'compressed',
+    src: path.join(__dirname, "./public/stylesheets"),
+    dest: path.join(__dirname, "./public/stylesheets"),
+    outputStyle: 'compressed',
     sourceMap: true
   })
 );
-express.static(path.join(__dirname, 'public'));
+express.static(path.join(__dirname, '/public'));
 // app.use(sassMiddleware({
 //   src: srcPath,
 //   dest: destPath,
@@ -56,10 +56,10 @@ app.use(session({
 }));
 
 // Set views as the path for views.
-app.set("views", path.join(__dirname, "views"));
-app.set("view engine", "hbs");
-app.use(express.static(path.join(__dirname, "public")));
-
+app.set('views', path.join(__dirname, 'views'));
+app.set('view engine', 'hbs');
+app.use(express.static(path.join(__dirname, 'public')));
+hbs.registerPartials(__dirname + '/views/partials');
 app.use(flash());
 
 // Passport Configuration

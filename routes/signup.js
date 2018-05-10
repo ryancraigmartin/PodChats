@@ -9,20 +9,9 @@ const flash = require("connect-flash");
 const bcrypt = require("bcrypt");
 const bcryptSalt = 10;
 
-
-
-
-
 router.get("/signup", (req, res, next) => {
   res.render("signup");
 });
-
-
-
-
-
-
-
 
 router.post("/signup", (req, res, next) => {
   const username = req.body.signup_username;
@@ -69,7 +58,7 @@ router.post("/signup", (req, res, next) => {
 });
 
 //=====================================================Login
-// ===============================================
+
 router.get('/login', (req, res, next) => {
   res.render('login', {
     message: req.flash('error')
@@ -88,23 +77,11 @@ router.post(
 
 // ======== Private Page user can view after login =====
 
-router.get('/private-page', ensureLogin.ensureLoggedIn(), (req, res) => {
+router.get('/user-dashboard', ensureLogin.ensureLoggedIn(), (req, res) => {
   res.render('index', {
     user: req.user
   });
 });
-
-
-
-
-
-
-
-
-
-
-
-
 
 // ===== Logout
 router.get('/logout', (req, res) => {
