@@ -32,22 +32,16 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 
 // Express View engine setup
-app.use(
-  require("node-sass-middleware")({
-    src: path.join(__dirname, "./public/stylesheets"),
-    dest: path.join(__dirname, "./public/stylesheets"),
-    outputStyle: 'compressed',
-    sourceMap: true
-  })
-);
+// app.use(
+//   require("node-sass-middleware")({
+//     src: path.join(__dirname, "./public/stylesheets"),
+//     dest: path.join(__dirname, "./public/stylesheets"),
+//     outputStyle: 'compressed',
+//     sourceMap: true
+//   })
+// );
 express.static(path.join(__dirname, '/public'));
-// app.use(sassMiddleware({
-//   src: srcPath,
-//   dest: destPath,
-//   debug: true,
-//   outputStyle: 'compressed'
-// }),
-// express.static(path.join(__dirname, 'public')));
+
 
 app.use(session({
   secret: "our-passport-local-strategy-app",

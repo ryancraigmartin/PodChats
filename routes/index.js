@@ -3,6 +3,7 @@ const router = express.Router();
 const Home = require("./home");
 // const Login = require("./login");
 const Signup = require("./signup");
+// const ProfilePage = require("./profilepage");
 const User = require("./user");
 const Search = require("./search");
 const Episode = require("./episode");
@@ -15,6 +16,7 @@ const routes = app => {
   app.use("/", Home);
   // app.use("/login", Login);
   app.use("/", Signup);
+  // app.use("/profilepage", ProfilePage)
   app.use("/users", User);
   app.use("/search", Search);
   app.use("/episode", Episode);
