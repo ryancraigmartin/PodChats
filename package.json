@@ -1,0 +1,44 @@
+{
+  "name": "podchats",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bcrypt": "^2.0.1",
+    "body-parser": "^1.18.2",
+    "connect-ensure-login": "^0.1.1",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "flash": "^1.1.0",
+    "hbs": "^4.0.1",
+    "lodash": "^4.17.10",
+    "mongoose": "^5.0.17",
+    "mongoose-unique-validator": "^2.0.1",
+    "morgan": "^1.9.0",
+    "node-sass-middleware": "^0.11.0",
+    "nodemon": "^1.17.4",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^5.0.0",
+    "path": "^0.12.7",
+    "xml2js": "^0.4.19"
+  },
+  "scripts": {
+    "dev": "DEBUG=practice:* nodemon ./bin/www"
+  },
+  "description": "Developed in one week at IronHack Miami - May 2018",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryancraigmartin/PodChats.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/ryancraigmartin/PodChats/issues"
+  },
+  "homepage": "https://github.com/ryancraigmartin/PodChats#readme"
+}
