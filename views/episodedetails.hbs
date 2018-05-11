@@ -1,0 +1,18 @@
+        {{!-- episode: response,
+        reviews: reviews --}}
+
+
+<div class="episode-title-card-text">
+{{#each episodes}}
+        <h1>{{this.title}}</h1>
+        <img class="this-page-image" src="{{this.imageUrl}}">
+        <span class="this-page-published-date" src="{{this.publishedDate}}"></span>
+        <span>{{this.description}}</span>
+        <button><a href="/review/{{this._id}}"></a></button>
+        <button><a href="/review/new/{{this._id}}">Write a Review</a></button>
+{{/each}}
+
+{{#each}}
+    {{this.reviews}}
+{{/each}}
+</div>

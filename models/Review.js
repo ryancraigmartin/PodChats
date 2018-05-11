@@ -6,7 +6,7 @@ const ReviewSchema = new Schema({
     episodeID: String,
     reviewTitle: String,
     reviewContent: String,
-    reviewScore: String
+    // reviewScore: String
 });
 
 // GET, POST, PUT, DELETE

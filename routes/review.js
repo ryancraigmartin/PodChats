@@ -1,6 +1,8 @@
 const express = require("express");
 let router = express.Router();
 const { Review } = require("../models");
+const { Episode } = require("../models");
+const { User } = require("../models");
 
 router.get("/", (req, res) => {
   Review.find({}, (err, User) => {
@@ -11,7 +13,7 @@ router.get("/", (req, res) => {
 router.get("/:id/", (req, res) => {
   Review.find({episodeID: req.params.id})
   .then((response) => {
-    res.render('blah', {reviews: response})
+    res.render('review', {reviews: response})
   })
   .catch((error) => {
     console.log(error);
@@ -30,11 +32,21 @@ router.get("/:id/", (req, res) => {
      })
   });
 
-router.post("/", (req, res) => {
-  Review.create(req.body, (err, Review) => {
-    res.json(Review);
+router.post("/create", (req, res) => {
+  Review.create({ 
+    reviewTitle: req.body.review_title,
+    reviewContent: req.body.review_content,
+    userID: req.user._id,
+    episodeID: req.body.episodeID
+   })
+  .then((response) => {
+    res.redirect(`/episodedetails`)
+  })
+  .catch((error) => {
+    console.log(error);
+    next(error)
+   })
   });
-});
 
 // router.put("/:id", (req, res) => {
 //   Review.findByIdAndUpdate(
