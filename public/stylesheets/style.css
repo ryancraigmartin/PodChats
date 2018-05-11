@@ -1,28 +1,45 @@
+img{
+  width: 280px !important;
+}
+a{
+  color: white !important;
+  text-decoration: none !important;
+}
+
+.rendered-podcasts{
+  color: black !important;
+}
+
 .podcast-result{
-  width: 250px;
+  width: 300px;
   padding: 50px;
   border: 3px solid black;
 }
 
 .podcast-image{
-  width: 175px;
+  width: 100px;
 }
 
 .form-inline{
-  margin-left: 300px !important; 
+  margin-left: 350px !important; 
 }
 
 .podchats-navbar-text{
   color: green;
 }
 
+/* 
 .nav-search{
   margin-left: 370px !important;
+} */
+
+.search-input{
+  width: 70% !important;
 }
 
 .form-control {
   display: block;
-  width: 70% !important;
+  width: 50% !important;
   padding: 0.375rem 0.75rem;
   font-size: 0.9375rem;
   line-height: 1.5;

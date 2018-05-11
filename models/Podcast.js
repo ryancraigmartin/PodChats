@@ -8,7 +8,7 @@ const PodcastSchema = new Schema({
  feedUrl: String,
  title:  String,
  creator: String,
- podcastID: {default: Schema.Types.ObjectId}
+ podcastID: { default: Schema.Types.ObjectId }
  // user_Id: String
 });
 

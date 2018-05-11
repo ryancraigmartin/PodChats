@@ -11,6 +11,13 @@ router.get("/", (req, res) => {
   });
 });
 
+
+router.get('/:id/', (req, res) => {
+  Podcast.findById(req.params.id, (err, Podcast) => {
+      res.render('podcast')
+  })
+})
+
 router.post("/", (req, res) => {
   Podcast.create(req.body, (err, Podcast) => {
     res.json(Podcast);
