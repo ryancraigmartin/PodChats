@@ -1,7 +1,9 @@
 {{#if user}}
 <div class="navigation-div">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand podchats-navbar-text" href="#"><h3>PodChats</h3></a>
+        <a class="navbar-brand podchats-navbar-text" href="#">
+            <h3>PodChats</h3>
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02"
             aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -17,7 +19,6 @@
                     <a class="nav-link" href="./profilepage">Profile</a>
                 </li>
             </ul>
-
             <div class="nav-search">
                 <form class="form-inline my-2 my-lg-0">
                     <input class="form-control mr-sm-2 search-input" type="text" placeholder="Search">
@@ -25,64 +26,62 @@
                 </form>
             </div>
         </div>
-    <button class="btn btn-info mr-sm-2">
-        <a href="/">Index</a>
-    </button>
-    <button class="btn btn-danger">
-        <a href="/logout">Log Out</a>
-    </button>
+        <button class="btn btn-info mr-sm-2">
+            <a href="/">Index</a>
+        </button>
+        <button class="btn btn-danger">
+            <a href="/logout">Log Out</a>
+        </button>
     </nav>
 </div>
 
 <div>
     <h1>Welcome {{user.username}}</h1>
-
 </div>
+{{/if}} 
 
- 
     <div class="container">
         <div class="row">
-            {{#each podcast}}
-                  <col-sm>
-                    <div class="card text-white bg-light mb-3" style="max-width: 20rem;">
-                      <div class="card-header rendered-podcasts"><h3>{{this.title}}</h3></div>
-                      <div class="card-body rendered-podcasts">
+    {{#each podcast}}
+            <div class="col-sm-4">
+                <div class="card text-white bg-light mb-3" style="max-width: 20rem;">
+                    <div class="card-header rendered-podcasts">
+                        <h5 class="podcast-title-card-text">{{this.title}}</h5>
+                    </div>
+                    <div class="card-body rendered-podcasts">
+                        <a href="podcast/{{this._id}}">
+                            <img src="{{this.imageUrl}}" alt="">
                         <p class="card-text">{{this.feedurl}}</p>
-                        <a href="podcast/{{this._id}}"><img src="{{this.imageUrl}}" alt=""></a>
-                      </div>
-                 </col-sm>
-            {{/each}}
+                        </a>
+                    </div>
                 </div>
+            </div>
+    {{/each}} 
         </div>
     </div>
 
-
-
-
-{{!-- <div class="container">
+{{!--
+<div class="container">
     <div class="row">
         <div class="col-md-4">
-    {{#each podcast}}
-        <div class="podcast-result">
-            <h5>Title: </h5>{{this.title}}
-            <br>
-            <br>
-            <h5>Creator: </h5>{{this.creator}}
-            <br>
-            <br>
-            <h5>RSS Feed: </h5><a href="{{this.feedUrl}}">{{this.title}}</a>
-            <br>
-            <br>
-            <img class="podcast-image" href="/podcast/{{this.podcastID}}" src="{{this.imageUrl}}" alt="">       
-        </div>
-    {{/each}}
+            {{#each podcast}}
+            <div class="podcast-result">
+                <h5>Title: </h5>{{this.title}}
+                <br>
+                <br>
+                <h5>Creator: </h5>{{this.creator}}
+                <br>
+                <br>
+                <h5>RSS Feed: </h5>
+                <a href="{{this.feedUrl}}">{{this.title}}</a>
+                <br>
+                <br>
+                <img class="podcast-image" href="/podcast/{{this.podcastID}}" src="{{this.imageUrl}}" alt="">
+            </div>
+            {{/each}}
         </div>
     </div>
-</div> --}}
-
-
-
-{{/if}} {{#unless user}}
+</div> --}} {{#unless user}}
 <button id="index-login-button" class="btn btn-primary">
     <a href="/login" </a>Login</button>
 <button id="index-signup-button" class="btn btn-info">

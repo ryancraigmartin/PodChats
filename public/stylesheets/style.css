@@ -11,7 +11,7 @@ a{
 }
 
 .podcast-result{
-  width: 300px;
+  width: 550px;
   padding: 50px;
   border: 3px solid black;
 }
@@ -28,10 +28,10 @@ a{
   color: green;
 }
 
-/* 
-.nav-search{
-  margin-left: 370px !important;
-} */
+.podcast-title-card-text{
+  text-align: center;
+  vertical-align: middle;
+}
 
 .search-input{
   width: 70% !important;
