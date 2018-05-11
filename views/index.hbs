@@ -26,6 +26,9 @@
                 </form>
             </div>
         </div>
+        <div>
+            <h4 class="mr-sm-4">Welcome {{user.username}}! </h4>
+        </div>
         <button class="btn btn-info mr-sm-2">
             <a href="/">Index</a>
         </button>
@@ -34,11 +37,10 @@
         </button>
     </nav>
 </div>
-
-<div>
-    <h1>Welcome {{user.username}}</h1>
-</div>
 {{/if}} 
+
+<br>
+<br>
 
     <div class="container">
         <div class="row">
@@ -49,7 +51,7 @@
                         <h5 class="podcast-title-card-text">{{this.title}}</h5>
                     </div>
                     <div class="card-body rendered-podcasts">
-                        <a href="podcast/{{this._id}}">
+                        <a href="episode/{{this._id}}">
                             <img src="{{this.imageUrl}}" alt="">
                         <p class="card-text">{{this.feedurl}}</p>
                         </a>

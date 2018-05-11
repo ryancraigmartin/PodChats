@@ -12,9 +12,9 @@ router.get("/", (req, res) => {
 });
 
 
-router.get('/podcast/:id', (req, res) => {
+router.get('/:id', (req, res) => {
   Podcast.findById(req.params.id, (err, Podcast) => {
-      res.render('podcast')
+      res.render('podcast', { Podcast })
   })
 })
 

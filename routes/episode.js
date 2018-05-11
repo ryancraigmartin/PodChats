@@ -11,6 +11,17 @@ router.get("/", (req, res) => {
   });
 });
 
+router.get('/:id', (req, res) => {
+  Episode.find({podcastID: req.params.id})
+    .then((response) => {
+      res.render('episode', { episodes: response})
+    })
+    .catch((error) => {
+      console.log(error);
+      next(error)
+     })
+  })
+
 router.post("/", (req, res) => {
   Episode.create(req.body, (err, Episode) => {
     res.json(Episode);

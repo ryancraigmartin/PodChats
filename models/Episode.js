@@ -11,6 +11,5 @@ const EpisodeSchema = new Schema({
 });
 
 // GET, POST
-
 module.exports = mongoose.model("Episode", EpisodeSchema);
 

@@ -9,10 +9,26 @@ router.get("/", (req, res) => {
 });
 
 router.get("/:id/", (req, res) => {
-  Review.findById(req.params.id, (err, Review) => {
-    res.json(Review);
+  Review.find({episodeID: req.params.id})
+  .then((response) => {
+    res.render('blah', {reviews: response})
+  })
+  .catch((error) => {
+    console.log(error);
+    next(error)
+   })
   });
-});
+
+  router.get("/new/:episodeID", (req, res) => {
+    Episode.findById(req.params.episodeID)
+    .then((response) => {
+      res.render('review', {episode: response})
+    })
+    .catch((error) => {
+      console.log(error);
+      next(error)
+     })
+  });
 
 router.post("/", (req, res) => {
   Review.create(req.body, (err, Review) => {
@@ -20,15 +36,15 @@ router.post("/", (req, res) => {
   });
 });
 
-router.put("/:id", (req, res) => {
-  Review.findByIdAndUpdate(
-    req.params.id,
-    req.body,
-    { new: true },
-    (err, Review) => {
-      res.json(Review);
-    }
-  );
-});
+// router.put("/:id", (req, res) => {
+//   Review.findByIdAndUpdate(
+//     req.params.id,
+//     req.body,
+//     { new: true },
+//     (err, Review) => {
+//       res.json(Review);
+//     }
+//   );
+// });
 
 module.exports = router;

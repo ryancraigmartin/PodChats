@@ -20,8 +20,12 @@ a{
   width: 100px;
 }
 
+/* .podcast-page-image{
+  width: 300px !important;
+} */
+
 .form-inline{
-  margin-left: 350px !important; 
+  margin-left: 340px !important; 
 }
 
 .podchats-navbar-text{
