@@ -1,13 +1,33 @@
+
 img{
   width: 280px !important;
 }
+
 a{
-  color: rgb(228, 228, 231) !important;
+  color: rgb(255, 255, 255) !important;
   text-decoration: none !important;
+}
+
+h4{
+  color: black !important;
 }
 
 .episode-page-cards{
   color: black;
+}
+
+/* .inline-display{
+  display: inline-block;
+} */
+
+.text-color{
+  color: black;
+  margin-left: 50px;
+}
+
+.index-image{
+   /* width: 100% !important; */
+  width: 1440px !important;
 }
 
 .footer-text-white{

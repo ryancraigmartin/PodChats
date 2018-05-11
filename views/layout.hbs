@@ -37,15 +37,21 @@
                 </form>
             </div>
         </div>
-        <div>
-            <h4 class="mr-sm-4">Welcome {{user.username}}! </h4>
-        </div>
-        <button class="btn btn-info mr-sm-2">
-            <a href="/">Home</a>
-        </button>
-        <button class="btn btn-danger">
+        {{#if user}}
+            <div>
+                <h4 class="mr-sm-4">Welcome {{user.username}}! </h4>
+            </div>
+        <button class="btn btn-danger mr-sm-2">
             <a href="/logout">Log Out</a>
         </button>
+        {{/if}}
+        <button class="btn btn-primary mr-sm-2">
+            <a href="/">Home</a>
+        </button>
+        <button id="index-login-button" class="btn btn-info mr-sm-2">
+            <a href="/login" </a>Login</button>
+        <button id="index-signup-button" class="btn btn-warning mr-sm-2">
+            <a href="/signup" </a>Sign Up</button>
     </nav>
 </div>
 {{!-- {{/if}}  --}}
