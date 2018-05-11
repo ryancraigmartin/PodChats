@@ -31,8 +31,31 @@
   </div>
 </div> --}}
 
+<div class="episode-page-cards">
+        <div class="container">
+            <div class="row">
+        {{#each episodes}}
+                <div class="col-sm-4">
+                    <div class="card text-white bg-light mb-3" style="max-width: 20rem;">
+                        <div class="card-header rendered-podcasts">
+                           <h5 class="podcast-title-card-text">{{this.title}}</h5>
+                        </div>
+                        <div class="card-body rendered-podcasts">
+                                <img src="{{this.imageUrl}}" alt="">
+                                <span class="this-page-published-date" src="{{this.publishedDate}}"></span>
+                                <span>{{this.description}}</span>
+                                <button class="btn btn-info"><a href="/review/new/{{this._id}}">Write a Review</a></button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+        {{/each}} 
+            </div>
+        </div>
+</div>
 
 
+{{!-- 
 <div class="episode-title-card-text">
 {{#each episodes}}
         <h1>{{this.title}}</h1>
@@ -42,4 +65,4 @@
         <button><a href="/review/{{this._id}}"></a></button>
         <button><a href="/review/new/{{this._id}}">Write a Review</a></button>
 {{/each}}
-</div>
+</div> --}}

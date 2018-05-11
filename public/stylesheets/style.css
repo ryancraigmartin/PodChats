@@ -2,8 +2,16 @@ img{
   width: 280px !important;
 }
 a{
-  color: white !important;
+  color: rgb(228, 228, 231) !important;
   text-decoration: none !important;
+}
+
+.episode-page-cards{
+  color: black;
+}
+
+.footer-text-white{
+  color: white
 }
 
 .rendered-podcasts{

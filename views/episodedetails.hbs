@@ -3,7 +3,7 @@
 
 
 <div class="episode-title-card-text">
-{{#each episodes}}
+{{#each episode}}
         <h1>{{this.title}}</h1>
         <img class="this-page-image" src="{{this.imageUrl}}">
         <span class="this-page-published-date" src="{{this.publishedDate}}"></span>
@@ -12,7 +12,8 @@
         <button><a href="/review/new/{{this._id}}">Write a Review</a></button>
 {{/each}}
 
-{{#each}}
-    {{this.reviews}}
-{{/each}}
+{{!-- {{#each reviews}}
+    {{this.reviewTitle}}
+    {{this.reviewContent}}
+{{/each}} --}}
 </div>
