@@ -2,7 +2,6 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
  
 // Podcasts recieves their ID from it's MongoDB ID.
-
 const PodcastSchema = new Schema({
  imageUrl: String,
  feedUrl: String,
@@ -12,5 +11,4 @@ const PodcastSchema = new Schema({
  // user_Id: String
 });
 
-// GET, POST
 module.exports = mongoose.model('Podcast', PodcastSchema);

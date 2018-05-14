@@ -10,6 +10,5 @@ const EpisodeSchema = new Schema({
   episodeScore: { type: Number, default: 0 }
 });
 
-// GET, POST
 module.exports = mongoose.model("Episode", EpisodeSchema);
 

@@ -10,8 +10,6 @@ const UserSchema = new Schema({
     email: String,
 });
 
-// GET, POST, PUT, DELETE
-
 UserSchema.plugin(passportLocalMongoose);
 
 module.exports = mongoose.model('User', UserSchema);

@@ -9,5 +9,4 @@ const ReviewSchema = new Schema({
     // reviewScore: String
 });
 
-// GET, POST, PUT, DELETE
 module.exports = mongoose.model('Review', ReviewSchema);

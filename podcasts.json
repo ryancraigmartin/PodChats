@@ -1,33 +1,330 @@
-{"_id":{"$oid":"5af310d4a74ee18ee2170780"},"imageUrl":"https://is2-ssl.mzstatic.com/image/thumb/Music111/v4/3e/97/37/3e9737ad-f21f-20db-b55d-41bde7733fd1/source/600x600bb.jpg","feedUrl":"http://congratulations.libsyn.com/rss","title":"Congratulations with Chris D'Elia","creator":"Chris D'Elia","__v":0}
-{"_id":{"$oid":"5af310d6a74ee18ee2170790"},"imageUrl":"https://is4-ssl.mzstatic.com/image/thumb/Music127/v4/d0/e6/5f/d0e65f81-c2cf-7f59-38e4-6abcfab7e38a/source/600x600bb.jpg","feedUrl":"http://joeroganexp.joerogan.libsynpro.com/rss","title":"The Joe Rogan Experience","creator":"Joe Rogan","__v":0}
-{"_id":{"$oid":"5af310d9a74ee18ee21707a0"},"imageUrl":"https://is3-ssl.mzstatic.com/image/thumb/Music128/v4/44/7d/df/447ddfa8-227a-6ef6-b557-e5c0fdb3303a/source/600x600bb.jpg","feedUrl":"https://rss.art19.com/tim-ferriss-show","title":"The Tim Ferriss Show","creator":"Tim Ferriss: Bestselling Author, Human Guinea Pig","__v":0}
-{"_id":{"$oid":"5af310dfa74ee18ee21707b0"},"imageUrl":"https://is3-ssl.mzstatic.com/image/thumb/Music128/v4/26/ed/04/26ed043f-5b93-6634-a95d-93e2973bd701/source/600x600bb.jpg","feedUrl":"http://freecodecamp.libsyn.com/rss","title":"The freeCodeCamp Podcast","creator":"freeCodeCamp","__v":0}
-{"_id":{"$oid":"5af361de83bfa42547ea0684"},"imageUrl":"https://is4-ssl.mzstatic.com/image/thumb/Music122/v4/1b/83/76/1b8376aa-90a9-eae1-662d-2b24faf1bf6e/source/600x600bb.jpg","feedUrl":"http://rss.art19.com/the-daily","title":"The Daily","creator":"The New York Times","__v":0}
-{"_id":{"$oid":"5af3672f5b3a92312985fa7a"},"imageUrl":"https://is4-ssl.mzstatic.com/image/thumb/Music128/v4/7c/e4/5a/7ce45ac1-bc24-8188-0ff2-7afe3b99f3ae/source/600x600bb.jpg","feedUrl":"https://userdefenders.com/?feed=podcast","title":"User Defenders: Inspiring Interviews with UX Superheroes","creator":"Jason Ogle: UX | UX Design | Product Design | UI | Web Design","__v":0}
-{"_id":{"$oid":"5af4687fd67ee720d3c7e5ea"},"imageUrl":"https://is3-ssl.mzstatic.com/image/thumb/Music117/v4/c5/c2/72/c5c27211-b647-d542-f39c-318a71cf4905/source/600x600bb.jpg","feedUrl":"https://www.npr.org/rss/podcast.php?id=510321","title":"Wow in the World","creator":"NPR","__v":0}
-{"_id":{"$oid":"5af4a2596156668243e35470"},"imageUrl":"https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/9a/8a/cf/9a8acf3b-e90f-c80f-2b52-8871aa60eb8e/source/600x600bb.jpg","feedUrl":"http://evernote.libsyn.com/rss","title":"Taking Note: Conversations with Evernote","creator":"Evernote","__v":0}
-{"_id":{"$oid":"5af4a3846156668243e35480"},"imageUrl":"https://is3-ssl.mzstatic.com/image/thumb/Music128/v4/26/ed/04/26ed043f-5b93-6634-a95d-93e2973bd701/source/600x600bb.jpg","feedUrl":"http://freecodecamp.libsyn.com/rss","title":"The freeCodeCamp Podcast","creator":"freeCodeCamp","__v":0}
-{"_id":{"$oid":"5af4c3f70099fcd202904fea"},"imageUrl":"https://is5-ssl.mzstatic.com/image/thumb/Music118/v4/3b/d5/8b/3bd58bfd-6605-9529-204e-8fdf56b3444c/source/600x600bb.jpg","feedUrl":"http://feeds.feedburner.com/pod-save-america","title":"Pod Save America","creator":"Crooked Media","__v":0}
-{"_id":{"$oid":"5af4faf619da49341755dc8a"},"imageUrl":"https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/44/03/ad/4403adfb-c702-199d-841b-e20fc9d6328d/source/600x600bb.jpg","feedUrl":"https://rss.art19.com/fighter-and-the-kid","title":"The Fighter \u0026 The Kid","creator":"Brendan Schaub, Bryan Callen","__v":0}
-{"_id":{"$oid":"5af4fafd19da49341755dc9a"},"imageUrl":"https://is2-ssl.mzstatic.com/image/thumb/Music118/v4/a6/4e/09/a64e0953-0190-af18-79a4-c5baccdc6b84/source/600x600bb.jpg","feedUrl":"https://rss.art19.com/onnit","title":"Onnit Podcast","creator":"Total Human Optimization","__v":0}
-{"_id":{"$oid":"5af4fb0a19da49341755dcaa"},"imageUrl":"https://is1-ssl.mzstatic.com/image/thumb/Music62/v4/a7/31/06/a7310618-bdf7-c8a3-7b99-aa992d2a535d/source/600x600bb.jpg","feedUrl":"http://thechurchofwhatshappeningnow.libsyn.com/rss","title":"The Church of What's Happening Now: With Joey Coco Diaz","creator":"Joey Coco Diaz","__v":0}
-{"_id":{"$oid":"5af4fb1119da49341755dcba"},"imageUrl":"https://is2-ssl.mzstatic.com/image/thumb/Music71/v4/ec/3f/92/ec3f924d-e918-086c-777e-cc64e1237984/source/600x600bb.jpg","feedUrl":"http://billburr.libsyn.com/rss","title":"Monday Morning Podcast","creator":"Bill Burr","__v":0}
-{"_id":{"$oid":"5af4fb1619da49341755dcca"},"imageUrl":"https://is5-ssl.mzstatic.com/image/thumb/Music62/v4/50/51/94/505194e4-e901-db2e-48d9-6a1a241a03b4/source/600x600bb.jpg","feedUrl":"http://feeds.feedburner.com/YourMomsHouseWithChristinaPazsitzkyAndTomSegura","title":"Your Mom's House with Christina P. and Tom Segura","creator":"Tom Segura \u0026 Christina Pazsitzky","__v":0}
-{"_id":{"$oid":"5af4fc0e19da49341755dcda"},"imageUrl":"https://is3-ssl.mzstatic.com/image/thumb/Music62/v4/2d/3a/00/2d3a00e9-315f-d21c-8af2-6ff591d2f864/source/600x600bb.jpg","feedUrl":"http://lorepodcast.libsyn.com/rss","title":"Lore","creator":"Aaron Mahnke","__v":0}
-{"_id":{"$oid":"5af4fc1719da49341755dcf2"},"imageUrl":"https://is2-ssl.mzstatic.com/image/thumb/Music118/v4/8b/28/b6/8b28b6f5-3944-c561-6150-927ff5e910a0/source/600x600bb.jpg","feedUrl":"http://feeds.feedburner.com/TEDTalks_audio","title":"TED Talks Daily","creator":"TED","__v":0}
-{"_id":{"$oid":"5af4fc5219da49341755dd0a"},"imageUrl":"https://is2-ssl.mzstatic.com/image/thumb/Music118/v4/53/67/a9/5367a982-54ba-21b3-2067-309d4c2cec3c/source/600x600bb.jpg","feedUrl":"https://rss.art19.com/aubrey-marcus-podcast","title":"Aubrey Marcus Podcast","creator":"Motivation, Mindset, Mastery w/ Aubrey Marcus","__v":0}
-{"_id":{"$oid":"5af4fc5919da49341755dd1a"},"imageUrl":"https://is3-ssl.mzstatic.com/image/thumb/Music128/v4/4f/df/51/4fdf5122-5b7d-1fa2-b04e-9ff6317aff27/source/600x600bb.jpg","feedUrl":"http://wakingup.libsyn.com/rss","title":"Waking Up with Sam Harris","creator":"Sam Harris","__v":0}
-{"_id":{"$oid":"5af4fc5f19da49341755dd2a"},"imageUrl":"https://is2-ssl.mzstatic.com/image/thumb/Music118/v4/f4/d2/18/f4d218f7-cc28-e9f2-69f6-958abc6cd9b0/source/600x600bb.jpg","feedUrl":"http://feeds.soundcloud.com/users/soundcloud:users:174770374/sounds.rss","title":"The Ben Shapiro Show","creator":"The Daily Wire","__v":0}
-{"_id":{"$oid":"5af5d8fd7dc706648fcc148e"},"imageUrl":"https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/44/03/ad/4403adfb-c702-199d-841b-e20fc9d6328d/source/600x600bb.jpg","feedUrl":"https://rss.art19.com/fighter-and-the-kid","title":"The Fighter \u0026 The Kid","creator":"Brendan Schaub, Bryan Callen","__v":0}
-{"_id":{"$oid":"5af5d9347dc706648fcc149e"},"imageUrl":"https://is5-ssl.mzstatic.com/image/thumb/Music128/v4/f3/61/a0/f361a02a-6403-6623-528e-1e7b50b5cd0d/source/600x600bb.jpg","feedUrl":"https://rss.simplecast.com/podcasts/3408/rss","title":"The Kevin Rose Show","creator":"Kevin Rose","__v":0}
-{"_id":{"$oid":"5af5d9467dc706648fcc14ae"},"imageUrl":"https://is3-ssl.mzstatic.com/image/thumb/Music128/v4/ae/58/21/ae582122-9e89-b8af-9526-ada4ff2b7356/source/600x600bb.jpg","feedUrl":"http://jockopodcast.libsyn.com/rss","title":"Jocko Podcast","creator":"Jocko Willink and Echo Charles","__v":0}
-{"_id":{"$oid":"5af5d95d7dc706648fcc14be"},"imageUrl":"https://is5-ssl.mzstatic.com/image/thumb/Music111/v4/50/ca/2a/50ca2a29-7c76-85ce-683b-ef0c505a7a14/source/600x600bb.jpg","feedUrl":"https://feeds.megaphone.fm/revisionisthistory","title":"Revisionist History","creator":"Malcolm Gladwell / Panoply","__v":0}
-{"_id":{"$oid":"5af5d9697dc706648fcc14bf"},"imageUrl":"https://is4-ssl.mzstatic.com/image/thumb/Music127/v4/29/57/27/29572783-9e4b-5e00-d5d4-64ed675e93d7/source/600x600bb.jpg","feedUrl":"https://feeds.feedwrench.com/js-jabber.rss","title":"JavaScript Jabber","creator":"DevChat.tv","__v":0}
-{"_id":{"$oid":"5af5d9737dc706648fcc14c0"},"imageUrl":"https://is5-ssl.mzstatic.com/image/thumb/Music128/v4/a5/a6/fe/a5a6fe1f-f8a0-8be4-2355-aad5d006a2b7/source/600x600bb.jpg","feedUrl":"https://rss.art19.com/tribe-of-mentors","title":"Tribe of Mentors","creator":"Tim Ferriss","__v":0}
-{"_id":{"$oid":"5af5d97a7dc706648fcc14d0"},"imageUrl":"https://is4-ssl.mzstatic.com/image/thumb/Music118/v4/22/04/00/2204009f-b8fc-0f2c-a732-e30078c9dcbd/source/600x600bb.jpg","feedUrl":"http://feeds.wnyc.org/radiolab","title":"Radiolab","creator":"WNYC Studios","__v":0}
-{"_id":{"$oid":"5af5d9c57dc706648fcc14d6"},"imageUrl":"https://is3-ssl.mzstatic.com/image/thumb/Music128/v4/78/12/0e/78120e1a-3b56-8b01-f9d0-f54cff31a023/source/600x600bb.jpg","feedUrl":"http://feeds.soundcloud.com/users/soundcloud:users:187351634/sounds.rss","title":"Lawsplaining the Interwebs","creator":"Rekieta Law","__v":0}
-{"_id":{"$oid":"5af5d9d17dc706648fcc14e6"},"imageUrl":"https://is5-ssl.mzstatic.com/image/thumb/Music118/v4/af/a6/55/afa6559d-b421-d22f-4192-07003f446b18/source/600x600bb.jpg","feedUrl":"http://tenminutepodcast.libsyn.com/rss","title":"Ten Minute Podcast","creator":"Will Sasso, Tommy Blacha, Chad Kultgen","__v":0}
-{"_id":{"$oid":"5af5d9db7dc706648fcc14f6"},"imageUrl":"https://is4-ssl.mzstatic.com/image/thumb/Music71/v4/f3/3f/a5/f33fa5fc-f077-8ebd-f11c-64ebcf383982/source/600x600bb.jpg","feedUrl":"http://feeds.podtrac.com/5fyY_zc435_l","title":"The EDM Prodcast","creator":"EDMProd","__v":0}
-{"_id":{"$oid":"5af5d9e57dc706648fcc1506"},"imageUrl":"https://is3-ssl.mzstatic.com/image/thumb/Music71/v4/c0/9f/1f/c09f1fab-673b-3f08-abff-23d46c309737/source/600x600bb.jpg","feedUrl":"http://feeds.soundcloud.com/users/soundcloud:users:6724477/sounds.rss","title":"Sound Matters","creator":"B\u0026O PLAY","__v":0}
-{"_id":{"$oid":"5af5da0b7dc706648fcc1516"},"imageUrl":"https://is4-ssl.mzstatic.com/image/thumb/Music122/v4/85/e4/46/85e44653-ba97-92f3-0b55-305dbcde93f5/source/600x600bb.jpg","feedUrl":"http://feeds.soundcloud.com/users/soundcloud:users:276253175/sounds.rss","title":"This Past Weekend","creator":"Theo Von","__v":0}
-{"_id":{"$oid":"5af5da197dc706648fcc1530"},"imageUrl":"https://is1-ssl.mzstatic.com/image/thumb/Music117/v4/40/e5/ef/40e5ef3c-f5b9-20df-14cc-e5c38d50a8da/source/600x600bb.jpg","feedUrl":"https://feed.syntax.fm/rss","title":"Syntax - Tasty Web Development Treats","creator":"Wes Bos \u0026 Scott Tolinski - Full Stack JavaScript Web Developers","__v":0}
+{
+    "_id": {
+        "$oid": "5af310d4a74ee18ee2170780"
+    },
+    "imageUrl": "https://is2-ssl.mzstatic.com/image/thumb/Music111/v4/3e/97/37/3e9737ad-f21f-20db-b55d-41bde7733fd1/source/600x600bb.jpg",
+    "feedUrl": "http://congratulations.libsyn.com/rss",
+    "title": "Congratulations with Chris D'Elia",
+    "creator": "Chris D'Elia",
+    "__v": 0
+}
+{
+    "_id": {
+        "$oid": "5af310d6a74ee18ee2170790"
+    },
+    "imageUrl": "https://is4-ssl.mzstatic.com/image/thumb/Music127/v4/d0/e6/5f/d0e65f81-c2cf-7f59-38e4-6abcfab7e38a/source/600x600bb.jpg",
+    "feedUrl": "http://joeroganexp.joerogan.libsynpro.com/rss",
+    "title": "The Joe Rogan Experience",
+    "creator": "Joe Rogan",
+    "__v": 0
+}
+{
+    "_id": {
+        "$oid": "5af310d9a74ee18ee21707a0"
+    },
+    "imageUrl": "https://is3-ssl.mzstatic.com/image/thumb/Music128/v4/44/7d/df/447ddfa8-227a-6ef6-b557-e5c0fdb3303a/source/600x600bb.jpg",
+    "feedUrl": "https://rss.art19.com/tim-ferriss-show",
+    "title": "The Tim Ferriss Show",
+    "creator": "Tim Ferriss: Bestselling Author, Human Guinea Pig",
+    "__v": 0
+}
+{
+    "_id": {
+        "$oid": "5af310dfa74ee18ee21707b0"
+    },
+    "imageUrl": "https://is3-ssl.mzstatic.com/image/thumb/Music128/v4/26/ed/04/26ed043f-5b93-6634-a95d-93e2973bd701/source/600x600bb.jpg",
+    "feedUrl": "http://freecodecamp.libsyn.com/rss",
+    "title": "The freeCodeCamp Podcast",
+    "creator": "freeCodeCamp",
+    "__v": 0
+}
+{
+    "_id": {
+        "$oid": "5af361de83bfa42547ea0684"
+    },
+    "imageUrl": "https://is4-ssl.mzstatic.com/image/thumb/Music122/v4/1b/83/76/1b8376aa-90a9-eae1-662d-2b24faf1bf6e/source/600x600bb.jpg",
+    "feedUrl": "http://rss.art19.com/the-daily",
+    "title": "The Daily",
+    "creator": "The New York Times",
+    "__v": 0
+}
+{
+    "_id": {
+        "$oid": "5af3672f5b3a92312985fa7a"
+    },
+    "imageUrl": "https://is4-ssl.mzstatic.com/image/thumb/Music128/v4/7c/e4/5a/7ce45ac1-bc24-8188-0ff2-7afe3b99f3ae/source/600x600bb.jpg",
+    "feedUrl": "https://userdefenders.com/?feed=podcast",
+    "title": "User Defenders: Inspiring Interviews with UX Superheroes",
+    "creator": "Jason Ogle: UX | UX Design | Product Design | UI | Web Design",
+    "__v": 0
+}
+{
+    "_id": {
+        "$oid": "5af4687fd67ee720d3c7e5ea"
+    },
+    "imageUrl": "https://is3-ssl.mzstatic.com/image/thumb/Music117/v4/c5/c2/72/c5c27211-b647-d542-f39c-318a71cf4905/source/600x600bb.jpg",
+    "feedUrl": "https://www.npr.org/rss/podcast.php?id=510321",
+    "title": "Wow in the World",
+    "creator": "NPR",
+    "__v": 0
+}
+{
+    "_id": {
+        "$oid": "5af4a2596156668243e35470"
+    },
+    "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/9a/8a/cf/9a8acf3b-e90f-c80f-2b52-8871aa60eb8e/source/600x600bb.jpg",
+    "feedUrl": "http://evernote.libsyn.com/rss",
+    "title": "Taking Note: Conversations with Evernote",
+    "creator": "Evernote",
+    "__v": 0
+}
+{
+    "_id": {
+        "$oid": "5af4a3846156668243e35480"
+    },
+    "imageUrl": "https://is3-ssl.mzstatic.com/image/thumb/Music128/v4/26/ed/04/26ed043f-5b93-6634-a95d-93e2973bd701/source/600x600bb.jpg",
+    "feedUrl": "http://freecodecamp.libsyn.com/rss",
+    "title": "The freeCodeCamp Podcast",
+    "creator": "freeCodeCamp",
+    "__v": 0
+}
+{
+    "_id": {
+        "$oid": "5af4c3f70099fcd202904fea"
+    },
+    "imageUrl": "https://is5-ssl.mzstatic.com/image/thumb/Music118/v4/3b/d5/8b/3bd58bfd-6605-9529-204e-8fdf56b3444c/source/600x600bb.jpg",
+    "feedUrl": "http://feeds.feedburner.com/pod-save-america",
+    "title": "Pod Save America",
+    "creator": "Crooked Media",
+    "__v": 0
+}
+{
+    "_id": {
+        "$oid": "5af4faf619da49341755dc8a"
+    },
+    "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/44/03/ad/4403adfb-c702-199d-841b-e20fc9d6328d/source/600x600bb.jpg",
+    "feedUrl": "https://rss.art19.com/fighter-and-the-kid",
+    "title": "The Fighter \u0026 The Kid",
+    "creator": "Brendan Schaub, Bryan Callen",
+    "__v": 0
+}
+{
+    "_id": {
+        "$oid": "5af4fafd19da49341755dc9a"
+    },
+    "imageUrl": "https://is2-ssl.mzstatic.com/image/thumb/Music118/v4/a6/4e/09/a64e0953-0190-af18-79a4-c5baccdc6b84/source/600x600bb.jpg",
+    "feedUrl": "https://rss.art19.com/onnit",
+    "title": "Onnit Podcast",
+    "creator": "Total Human Optimization",
+    "__v": 0
+}
+{
+    "_id": {
+        "$oid": "5af4fb0a19da49341755dcaa"
+    },
+    "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music62/v4/a7/31/06/a7310618-bdf7-c8a3-7b99-aa992d2a535d/source/600x600bb.jpg",
+    "feedUrl": "http://thechurchofwhatshappeningnow.libsyn.com/rss",
+    "title": "The Church of What's Happening Now: With Joey Coco Diaz",
+    "creator": "Joey Coco Diaz",
+    "__v": 0
+}
+{
+    "_id": {
+        "$oid": "5af4fb1119da49341755dcba"
+    },
+    "imageUrl": "https://is2-ssl.mzstatic.com/image/thumb/Music71/v4/ec/3f/92/ec3f924d-e918-086c-777e-cc64e1237984/source/600x600bb.jpg",
+    "feedUrl": "http://billburr.libsyn.com/rss",
+    "title": "Monday Morning Podcast",
+    "creator": "Bill Burr",
+    "__v": 0
+}
+{
+    "_id": {
+        "$oid": "5af4fb1619da49341755dcca"
+    },
+    "imageUrl": "https://is5-ssl.mzstatic.com/image/thumb/Music62/v4/50/51/94/505194e4-e901-db2e-48d9-6a1a241a03b4/source/600x600bb.jpg",
+    "feedUrl": "http://feeds.feedburner.com/YourMomsHouseWithChristinaPazsitzkyAndTomSegura",
+    "title": "Your Mom's House with Christina P. and Tom Segura",
+    "creator": "Tom Segura \u0026 Christina Pazsitzky",
+    "__v": 0
+}
+{
+    "_id": {
+        "$oid": "5af4fc0e19da49341755dcda"
+    },
+    "imageUrl": "https://is3-ssl.mzstatic.com/image/thumb/Music62/v4/2d/3a/00/2d3a00e9-315f-d21c-8af2-6ff591d2f864/source/600x600bb.jpg",
+    "feedUrl": "http://lorepodcast.libsyn.com/rss",
+    "title": "Lore",
+    "creator": "Aaron Mahnke",
+    "__v": 0
+}
+{
+    "_id": {
+        "$oid": "5af4fc1719da49341755dcf2"
+    },
+    "imageUrl": "https://is2-ssl.mzstatic.com/image/thumb/Music118/v4/8b/28/b6/8b28b6f5-3944-c561-6150-927ff5e910a0/source/600x600bb.jpg",
+    "feedUrl": "http://feeds.feedburner.com/TEDTalks_audio",
+    "title": "TED Talks Daily",
+    "creator": "TED",
+    "__v": 0
+}
+{
+    "_id": {
+        "$oid": "5af4fc5219da49341755dd0a"
+    },
+    "imageUrl": "https://is2-ssl.mzstatic.com/image/thumb/Music118/v4/53/67/a9/5367a982-54ba-21b3-2067-309d4c2cec3c/source/600x600bb.jpg",
+    "feedUrl": "https://rss.art19.com/aubrey-marcus-podcast",
+    "title": "Aubrey Marcus Podcast",
+    "creator": "Motivation, Mindset, Mastery w/ Aubrey Marcus",
+    "__v": 0
+}
+{
+    "_id": {
+        "$oid": "5af4fc5919da49341755dd1a"
+    },
+    "imageUrl": "https://is3-ssl.mzstatic.com/image/thumb/Music128/v4/4f/df/51/4fdf5122-5b7d-1fa2-b04e-9ff6317aff27/source/600x600bb.jpg",
+    "feedUrl": "http://wakingup.libsyn.com/rss",
+    "title": "Waking Up with Sam Harris",
+    "creator": "Sam Harris",
+    "__v": 0
+}
+{
+    "_id": {
+        "$oid": "5af4fc5f19da49341755dd2a"
+    },
+    "imageUrl": "https://is2-ssl.mzstatic.com/image/thumb/Music118/v4/f4/d2/18/f4d218f7-cc28-e9f2-69f6-958abc6cd9b0/source/600x600bb.jpg",
+    "feedUrl": "http://feeds.soundcloud.com/users/soundcloud:users:174770374/sounds.rss",
+    "title": "The Ben Shapiro Show",
+    "creator": "The Daily Wire",
+    "__v": 0
+}
+{
+    "_id": {
+        "$oid": "5af5d8fd7dc706648fcc148e"
+    },
+    "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/44/03/ad/4403adfb-c702-199d-841b-e20fc9d6328d/source/600x600bb.jpg",
+    "feedUrl": "https://rss.art19.com/fighter-and-the-kid",
+    "title": "The Fighter \u0026 The Kid",
+    "creator": "Brendan Schaub, Bryan Callen",
+    "__v": 0
+}
+{
+    "_id": {
+        "$oid": "5af5d9347dc706648fcc149e"
+    },
+    "imageUrl": "https://is5-ssl.mzstatic.com/image/thumb/Music128/v4/f3/61/a0/f361a02a-6403-6623-528e-1e7b50b5cd0d/source/600x600bb.jpg",
+    "feedUrl": "https://rss.simplecast.com/podcasts/3408/rss",
+    "title": "The Kevin Rose Show",
+    "creator": "Kevin Rose",
+    "__v": 0
+}
+{
+    "_id": {
+        "$oid": "5af5d9467dc706648fcc14ae"
+    },
+    "imageUrl": "https://is3-ssl.mzstatic.com/image/thumb/Music128/v4/ae/58/21/ae582122-9e89-b8af-9526-ada4ff2b7356/source/600x600bb.jpg",
+    "feedUrl": "http://jockopodcast.libsyn.com/rss",
+    "title": "Jocko Podcast",
+    "creator": "Jocko Willink and Echo Charles",
+    "__v": 0
+}
+{
+    "_id": {
+        "$oid": "5af5d95d7dc706648fcc14be"
+    },
+    "imageUrl": "https://is5-ssl.mzstatic.com/image/thumb/Music111/v4/50/ca/2a/50ca2a29-7c76-85ce-683b-ef0c505a7a14/source/600x600bb.jpg",
+    "feedUrl": "https://feeds.megaphone.fm/revisionisthistory",
+    "title": "Revisionist History",
+    "creator": "Malcolm Gladwell / Panoply",
+    "__v": 0
+}
+{
+    "_id": {
+        "$oid": "5af5d9697dc706648fcc14bf"
+    },
+    "imageUrl": "https://is4-ssl.mzstatic.com/image/thumb/Music127/v4/29/57/27/29572783-9e4b-5e00-d5d4-64ed675e93d7/source/600x600bb.jpg",
+    "feedUrl": "https://feeds.feedwrench.com/js-jabber.rss",
+    "title": "JavaScript Jabber",
+    "creator": "DevChat.tv",
+    "__v": 0
+}
+{
+    "_id": {
+        "$oid": "5af5d9737dc706648fcc14c0"
+    },
+    "imageUrl": "https://is5-ssl.mzstatic.com/image/thumb/Music128/v4/a5/a6/fe/a5a6fe1f-f8a0-8be4-2355-aad5d006a2b7/source/600x600bb.jpg",
+    "feedUrl": "https://rss.art19.com/tribe-of-mentors",
+    "title": "Tribe of Mentors",
+    "creator": "Tim Ferriss",
+    "__v": 0
+}
+{
+    "_id": {
+        "$oid": "5af5d97a7dc706648fcc14d0"
+    },
+    "imageUrl": "https://is4-ssl.mzstatic.com/image/thumb/Music118/v4/22/04/00/2204009f-b8fc-0f2c-a732-e30078c9dcbd/source/600x600bb.jpg",
+    "feedUrl": "http://feeds.wnyc.org/radiolab",
+    "title": "Radiolab",
+    "creator": "WNYC Studios",
+    "__v": 0
+}
+{
+    "_id": {
+        "$oid": "5af5d9c57dc706648fcc14d6"
+    },
+    "imageUrl": "https://is3-ssl.mzstatic.com/image/thumb/Music128/v4/78/12/0e/78120e1a-3b56-8b01-f9d0-f54cff31a023/source/600x600bb.jpg",
+    "feedUrl": "http://feeds.soundcloud.com/users/soundcloud:users:187351634/sounds.rss",
+    "title": "Lawsplaining the Interwebs",
+    "creator": "Rekieta Law",
+    "__v": 0
+}
+{
+    "_id": {
+        "$oid": "5af5d9d17dc706648fcc14e6"
+    },
+    "imageUrl": "https://is5-ssl.mzstatic.com/image/thumb/Music118/v4/af/a6/55/afa6559d-b421-d22f-4192-07003f446b18/source/600x600bb.jpg",
+    "feedUrl": "http://tenminutepodcast.libsyn.com/rss",
+    "title": "Ten Minute Podcast",
+    "creator": "Will Sasso, Tommy Blacha, Chad Kultgen",
+    "__v": 0
+}
+{
+    "_id": {
+        "$oid": "5af5d9db7dc706648fcc14f6"
+    },
+    "imageUrl": "https://is4-ssl.mzstatic.com/image/thumb/Music71/v4/f3/3f/a5/f33fa5fc-f077-8ebd-f11c-64ebcf383982/source/600x600bb.jpg",
+    "feedUrl": "http://feeds.podtrac.com/5fyY_zc435_l",
+    "title": "The EDM Prodcast",
+    "creator": "EDMProd",
+    "__v": 0
+}
+{
+    "_id": {
+        "$oid": "5af5d9e57dc706648fcc1506"
+    },
+    "imageUrl": "https://is3-ssl.mzstatic.com/image/thumb/Music71/v4/c0/9f/1f/c09f1fab-673b-3f08-abff-23d46c309737/source/600x600bb.jpg",
+    "feedUrl": "http://feeds.soundcloud.com/users/soundcloud:users:6724477/sounds.rss",
+    "title": "Sound Matters",
+    "creator": "B\u0026O PLAY",
+    "__v": 0
+}
+{
+    "_id": {
+        "$oid": "5af5da0b7dc706648fcc1516"
+    },
+    "imageUrl": "https://is4-ssl.mzstatic.com/image/thumb/Music122/v4/85/e4/46/85e44653-ba97-92f3-0b55-305dbcde93f5/source/600x600bb.jpg",
+    "feedUrl": "http://feeds.soundcloud.com/users/soundcloud:users:276253175/sounds.rss",
+    "title": "This Past Weekend",
+    "creator": "Theo Von",
+    "__v": 0
+}
+{
+    "_id": {
+        "$oid": "5af5da197dc706648fcc1530"
+    },
+    "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music117/v4/40/e5/ef/40e5ef3c-f5b9-20df-14cc-e5c38d50a8da/source/600x600bb.jpg",
+    "feedUrl": "https://feed.syntax.fm/rss",
+    "title": "Syntax - Tasty Web Development Treats",
+    "creator": "Wes Bos \u0026 Scott Tolinski - Full Stack JavaScript Web Developers",
+    "__v": 0
+}
