@@ -91,3 +91,30 @@ h4{
   border-radius: 3px;
   width: 700px;
 }
+
+
+html{
+	height: 100% !important;
+}
+
+body{
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    height: 100%;
+}
+
+.content{
+	flex: 1 0 auto;
+	-webkit-flex: 1 0 auto;
+	min-height: 200px;
+}
+
+#myFooter{
+	flex: 0 0 auto;
+    -webkit-flex: 0 0 auto;
+    /* position: absolute; */
+    left: 0 ; right: 0; bottom: 0; 
+    width:100%;
+}

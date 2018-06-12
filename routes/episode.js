@@ -12,37 +12,37 @@ router.get("/", (req, res) => {
   });
 });
 
-router.get('/:podcastID', (req, res) => {
-  Episode.find({podcastID: req.params.podcastID})
-    .then((response) => {
-      res.render('episode', { episodes: response})
+router.get("/:podcastID", (req, res) => {
+  Episode.find({ podcastID: req.params.podcastID })
+    .then(response => {
+      res.render("episode", { episodes: response });
     })
-    .catch((error) => {
+    .catch(error => {
       console.log(error);
-      next(error)
-     })
-  })
+      next(error);
+    });
+});
 
-router.get('/:id', (req, res) =>{
+router.get("/:id", (req, res) => {
   Episode.findById(req.params.id)
-  .then((response) => {
-    Reviews.find({episodeID: response._id})
-    .then((reviews) => {
-      res.render('episodedetails', {
-        episode: response,
-        reviews: reviews
-      })
+    .then(response => {
+      Reviews.find({ episodeID: response._id })
+        .then(reviews => {
+          res.render("episodedetails", {
+            episode: response,
+            reviews: reviews
+          });
+        })
+        .catch(error => {
+          console.log(error);
+          next(error);
+        });
     })
-    .catch((error) => {
+    .catch(error => {
       console.log(error);
-      next(error)
-     })
-  })
-  .catch((error) => {
-    console.log(error);
-    next(error)
-   })
-})
+      next(error);
+    });
+});
 
 router.post("/", (req, res) => {
   Episode.create(req.body, (err, Episode) => {

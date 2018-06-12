@@ -37,30 +37,30 @@
         </button>
     </nav>
 </div>
-{{/if}}  --}}
+{{/if}} --}}
 
 <br>
 <br>
 
-    <div class="container">
-        <div class="row">
-    {{#each podcast}}
-            <div class="col-sm-4">
-                <div class="card text-white bg-light mb-3" style="max-width: 20rem;">
-                    <div class="card-header rendered-podcasts">
-                        <h5 class="podcast-title-card-text">{{this.title}}</h5>
-                    </div>
-                    <div class="card-body rendered-podcasts">
-                        <a href="episode/{{this._id}}">
-                            <img src="{{this.imageUrl}}" alt="">
+<div class="container">
+    <div class="row">
+        {{#each podcast}}
+        <div class="col-sm-4">
+            <div class="card text-white bg-light mb-3" style="max-width: 20rem;">
+                <div class="card-header rendered-podcasts">
+                    <h5 class="podcast-title-card-text">{{this.title}}</h5>
+                </div>
+                <div class="card-body rendered-podcasts">
+                    <a href="episode/{{this._id}}">
+                        <img src="{{this.imageUrl}}" alt="">
                         <p class="card-text">{{this.feedurl}}</p>
-                        </a>
-                    </div>
+                    </a>
                 </div>
             </div>
-    {{/each}} 
         </div>
+        {{/each}}
     </div>
+</div>
 
 {{!--
 <div class="container">
@@ -85,11 +85,14 @@
     </div>
 </div> --}} {{#unless user}}
 <div class="index-image">
-   <a href="/login"> <img  class="index-image" src="https://theaudacitytopodcast.b-cdn.net/wp-content/uploads/sites/6/2014/09/iTunes-New-and-Noteworthy-Podcast-Cover-Art.jpg" alt=""></a>
+    <a href="/login">
+        <img class="index-image" src="https://theaudacitytopodcast.b-cdn.net/wp-content/uploads/sites/6/2014/09/iTunes-New-and-Noteworthy-Podcast-Cover-Art.jpg"
+            alt="">
+    </a>
 
 </div>
-{{!-- <button id="index-login-button" class="btn btn-primary">
+{{!--
+<button id="index-login-button" class="btn btn-primary">
     <a href="/login" </a>Login</button>
 <button id="index-signup-button" class="btn btn-info">
-    <a href="/signup" </a>Sign Up</button> --}}
-{{/unless}}
+    <a href="/signup" </a>Sign Up</button> --}} {{/unless}}

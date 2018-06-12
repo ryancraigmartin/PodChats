@@ -2,64 +2,63 @@
 <html>
 
 <head>
-  <title>PodChats</title>
-  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <link rel="stylesheet" href="https://bootswatch.com/4/flatly/bootstrap.min.css">
-  <link type="text/html" rel='stylesheet' href='/stylesheets/bootstrap.scss'/>
-  <link type="text/css" rel='stylesheet' href='/stylesheets/style.css'/>
+    <title>PodChats</title>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <link rel="stylesheet" href="https://bootswatch.com/4/flatly/bootstrap.min.css">
+    <link type="text/html" rel='stylesheet' href='/stylesheets/bootstrap.scss' />
+    <link type="text/css" rel='stylesheet' href='/stylesheets/style.css' />
 </head>
 
 <body>
-{{!-- {{#if user}} --}}
-<div class="navigation-div">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    {{!-- {{#if user}} --}}
+    <div class="navigation-div">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <h1 class="navbar-brand podchats-navbar-text">PodChats</h1>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02"
-            aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarColor02">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="/">Home
-                        <span class="sr-only">(current)</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./profilepage">Profile</a>
-                </li>
-            </ul>
-            <div class="nav-search">
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2 search-input" type="text" placeholder="Search">
-                    <button class="btn btn-secondary " type="submit">Search</button>
-                </form>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarColor02">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/">Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./profilepage">Profile</a>
+                    </li>
+                </ul>
+                <div class="nav-search">
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2 search-input" type="text" placeholder="Search">
+                        <button class="btn btn-secondary " type="submit">Search</button>
+                    </form>
+                </div>
             </div>
-        </div>
-        {{#if user}}
+            {{#if user}}
             <div>
                 <h4 class="mr-sm-4">Welcome {{user.username}}! </h4>
             </div>
-        <button class="btn btn-danger mr-sm-2">
-            <a href="/logout">Log Out</a>
-        </button>
-        {{/if}}
-        <button class="btn btn-primary mr-sm-2">
-            <a href="/">Home</a>
-        </button>
-        <button id="index-login-button" class="btn btn-info mr-sm-2">
-            <a href="/login" </a>Login</button>
-        <button id="index-signup-button" class="btn btn-warning mr-sm-2">
-            <a href="/signup" </a>Sign Up</button>
-    </nav>
-</div>
-{{!-- {{/if}}  --}}
-
-  {{{body}}}
-  <div class="navbar navbar-expand-lg navbar-dark bg-primary">
-    <div>
-      <p class="footer-text-white">Created by Ryan Martin at Ironhack Miami</p>
+            <button class="btn btn-danger mr-sm-2">
+                <a href="/logout">Log Out</a>
+            </button>
+            {{/if}}
+            <button class="btn btn-primary mr-sm-2">
+                <a href="/">Home</a>
+            </button>
+            <button id="index-login-button" class="btn btn-info mr-sm-2">
+                <a href="/login" </a>Login</button>
+            <button id="index-signup-button" class="btn btn-warning mr-sm-2">
+                <a href="/signup" </a>Sign Up</button>
+        </nav>
     </div>
-  </div>
+    {{!-- {{/if}} --}} {{{body}}}
+    <div class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div>
+            <p class="footer-text-white">Created by Ryan Martin at Ironhack Miami</p>
+        </div>
+    </div>
 </body>
+
 </html>

@@ -26,51 +26,55 @@ router.post("/signup", (req, res, next) => {
     return;
   }
 
-  User.findOne({
-    username: username
-  }, "username", (err, user) => {
-    if (user !== null) {
-      res.render("signup", {
-        message: "Sorry, that username already exists"
-      });
-      return;
-    }
-
-    const salt = bcrypt.genSaltSync(bcryptSalt);
-    const hashPass = bcrypt.hashSync(password, salt);
-
-    const newUser = new User({
-      username: username,
-      password: hashPass,
-      email: email,
-      name: name
-    });
-
-    newUser.save(err => {
-      if (err) {
+  User.findOne(
+    {
+      username: username
+    },
+    "username",
+    (err, user) => {
+      if (user !== null) {
         res.render("signup", {
-          message: "Something went wrong"
+          message: "Sorry, that username already exists"
         });
-      } else {
-        res.redirect("/");
+        return;
       }
-    });
-  });
+
+      const salt = bcrypt.genSaltSync(bcryptSalt);
+      const hashPass = bcrypt.hashSync(password, salt);
+
+      const newUser = new User({
+        username: username,
+        password: hashPass,
+        email: email,
+        name: name
+      });
+
+      newUser.save(err => {
+        if (err) {
+          res.render("signup", {
+            message: "Something went wrong"
+          });
+        } else {
+          res.redirect("/");
+        }
+      });
+    }
+  );
 });
 
 //=====================================================Login
 
-router.get('/login', (req, res, next) => {
-  res.render('login', {
-    message: req.flash('error')
+router.get("/login", (req, res, next) => {
+  res.render("login", {
+    message: req.flash("error")
   });
 });
 
 router.post(
-  '/login',
-  passport.authenticate('local', {
-    successRedirect: '/user-dashboard',
-    failureRedirect: '/login',
+  "/login",
+  passport.authenticate("local", {
+    successRedirect: "/user-dashboard",
+    failureRedirect: "/login",
     failureFlash: true,
     passReqToCallback: true
   })
@@ -78,30 +82,30 @@ router.post(
 
 // ======== Private Page user can view after login =====
 
-router.get('/user-dashboard', ensureLogin.ensureLoggedIn(), (req, res) => {
+router.get("/user-dashboard", ensureLogin.ensureLoggedIn(), (req, res) => {
   Podcast.find()
-  .then((result) => {
-    console.log(result);
-    console.log(result.title);
-    console.log(result.feedUrl);
-    console.log(result.imageUrl);
-      res.render('index', {podcast: result, user: req.user})  
-  })
-  .catch((error) => {
-    console.log(error);
-    next(error)
-  // res.render('index', {
-  //   user: req.user,
-  // });
-   })
-//   console.log("Req.params", req.params)
+    .then(result => {
+      console.log(result);
+      console.log(result.title);
+      console.log(result.feedUrl);
+      console.log(result.imageUrl);
+      res.render("index", { podcast: result, user: req.user });
+    })
+    .catch(error => {
+      console.log(error);
+      next(error);
+      // res.render('index', {
+      //   user: req.user,
+      // });
+    });
+  //   console.log("Req.params", req.params)
 });
 
 // router.get('/user-dashboard', ensureLogin.ensureLoggedIn(), (req, res) => {
 //   Podcast.find()
 //   .then((result) => {
 //     console.log(result);
-//       res.render('index', {podcast: result})  
+//       res.render('index', {podcast: result})
 //   })
 //   .catch((error) => {
 //     console.log(error);
@@ -110,9 +114,9 @@ router.get('/user-dashboard', ensureLogin.ensureLoggedIn(), (req, res) => {
 // })
 
 // ===== Logout
-router.get('/logout', (req, res) => {
+router.get("/logout", (req, res) => {
   req.logout();
-  res.redirect('/login');
+  res.redirect("/login");
 });
 
 module.exports = router;

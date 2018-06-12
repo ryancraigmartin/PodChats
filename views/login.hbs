@@ -3,19 +3,16 @@
   <div class="text-color">
     <div class="form-group">
       <h4 for="username">Username: </h1>
-      <input type="text" class="form-control" name="username" id="login_email" placeholder="Email">
-      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        <input type="text" class="form-control" name="username" id="login_email" placeholder="Email">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
     </div>
     <div class="form-group">
       <h4 for="exampleInputPassword1">Password: </h4>
       <input type="password" class="form-control" name="password" id="login_password" placeholder="Password">
     </div>
     <button type="submit" class="btn btn-success">Log In</button>
-       {{#if message}}
-      <div class="error-message">{{ message }}</div>
-      {{/if}}
+    {{#if message}}
+    <div class="error-message">{{ message }}</div>
+    {{/if}}
   </div>
 </form>
-
-  
-
