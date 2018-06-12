@@ -9,8 +9,7 @@ router.get("/", (req, res, next) => {
   res.render("login", { message: req.flash("error") });
 });
 
-router.post(
-  // "/",
+router.post("/login",
   passport.authenticate("local", {
     successRedirect: "/home",
     failureRedirect: "/login",

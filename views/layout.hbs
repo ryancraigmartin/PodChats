@@ -30,7 +30,7 @@
                     </li>
                 </ul>
                 <div class="nav-search">
-                    <form class="form-inline my-2 my-lg-0">
+                    <form class="form-inline my-4 my-lg-0">
                         <input class="form-control mr-sm-2 search-input" type="text" placeholder="Search">
                         <button class="btn btn-secondary " type="submit">Search</button>
                     </form>
@@ -48,17 +48,20 @@
                 <a href="/">Home</a>
             </button>
             <button id="index-login-button" class="btn btn-info mr-sm-2">
-                <a href="/login" </a>Login</button>
+                <a href="/login">Login</a></button>
             <button id="index-signup-button" class="btn btn-warning mr-sm-2">
-                <a href="/signup" </a>Sign Up</button>
+                <a href="/signup">Sign Up</a></button>
         </nav>
     </div>
-    {{!-- {{/if}} --}} {{{body}}}
-    <div class="navbar navbar-expand-lg navbar-dark bg-primary">
+    {{!-- {{/if}} --}} 
+
+    {{{body}}}
+
+    <div class="navbar navbar-expand-lg navbar-dark bg-primary fixed-foot">
         <div>
             <p class="footer-text-white">Created by Ryan Martin at Ironhack Miami</p>
         </div>
-    </div>
+    </div> 
 </body>
 
 </html>
