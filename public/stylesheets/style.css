@@ -12,6 +12,10 @@ h4{
   color: black !important;
 }
 
+.podcast-spacing{
+  margin-top: 25px;
+}
+
 .episode-page-cards{
   color: black;
 }
@@ -57,7 +61,8 @@ h4{
 }
 
 .podchats-navbar-text{
-  color: green;
+  height: 40px;
+  font-size: 23px;
 }
 
 .podcast-title-card-text{
@@ -105,7 +110,18 @@ h4{
 	min-height: 200px;
 }
 
-.fixed-foot{
+.nav-spacing{
+  margin-left: 50px;
+}
+
+.centered-form{
+  position: absolute;
+  top: 25%;
+  left: 39%;
+  width: 550px;
+}
+
+/* .fixed-foot{
 	flex: 0 0 auto;
     -webkit-flex: 0 0 auto;
     left: 0; 
@@ -114,3 +130,14 @@ h4{
     margin-top: 0%;
     width: 100%;
 }
+
+.wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -142px; /* the bottom margin is the negative value of the footer's height */
+/* } */
+/* 
+.fixed-foot .push {
+  height: 142px; 
+}  */
