@@ -29,6 +29,7 @@
   },
   "scripts": {
     "start": "node ./bin/www",
+    "start-dev": "nodemon ./bin/www",
     "dev": "DEBUG=practice:* nodemon ./bin/www"
   },
   "description": "Developed in one week at IronHack Miami - May 2018",
